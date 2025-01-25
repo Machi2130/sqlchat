@@ -1,0 +1,2 @@
+{"level":"error","message":"Query execution error: 404 {\"error\":{\"message\":\"The model `llama2-70b-4096` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}","timestamp":"2025-01-25T11:34:35.037Z"}
+{"level":"error","message":"Query execution error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '5 first_name, phone1 FROM us' at line 1","timestamp":"2025-01-25T11:39:16.345Z"}

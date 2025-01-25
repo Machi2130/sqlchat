@@ -1,0 +1,49 @@
+{
+  "name": "sql",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^1.7.9",
+    "concurrently": "^7.6.0",
+    "cors": "^2.8.5",
+    "cra-template": "1.2.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "groq-sdk": "^0.12.0",
+    "mysql2": "^3.12.0",
+    "perf_hooks": "^0.0.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^4.2.4",
+    "winston": "^3.17.0"
+  },
+  "scripts": {
+    "start": "concurrently \"npm run start-backend\" \"npm run start-server\" \"npm run start-frontend\"",
+    "start-backend": "node backend/app.js",
+    "start-server": "node server/server.js",
+    "start-frontend": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "dev": "concurrently \"npm run start-backend\" \"npm run start-server\" \"npm run start-frontend\""
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
