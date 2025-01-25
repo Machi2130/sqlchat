@@ -1,0 +1,9 @@
+# Backend Dependencies
+express
+cors
+dotenv
+mysql2
+winston
+groq-sdk
+axios
+web-vitles
