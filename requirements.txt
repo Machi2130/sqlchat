@@ -1,5 +1,5 @@
 # Backend Dependencies
-express
+express="^4.21.2"
 cors
 dotenv
 mysql2
